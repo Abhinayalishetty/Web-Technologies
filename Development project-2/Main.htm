@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description"
+	content="A sample resume that portays professional technical skills and background">
+<meta name="keywords"
+	content="resume, porfolio, cover letter, skills, education, academic, experience, gpa, university, format, model, sample, template, example, tips, interviews, job, search, career, guide, professional, download">
+<meta name="author" content="Abhinay Sai Alishetty">
+<title>Abhinay Sai Alishetty</title>
+<link rel="stylesheet" type="text/css" href="CSS/Abhinaya.css">
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+
+function Home(){
+	document.getElementById("content").src="Home.htm";	
+}
+function Bio(){
+	document.getElementById("content").src="Bio.htm";
+	
+}
+function Resume(){
+	document.getElementById("content").src="Resume.htm";
+	
+}
+function Contact(){
+	document.getElementById("content").src="Contact.htm";
+	
+}
+</script>
+</head>
+<body>
+<div>
+<nav>
+<ul>
+  <li><a href="#" class ="Home" onclick = "Home()">Home</a>
+  <li><a href="#" class ="Bio" onclick = "Bio()">Bio</a>
+  <li><a href="#" class ="Resume" onclick = "Resume()">Resume</a>
+  <li><a href="#" class ="Contact" onclick = "Contact()">Contact</a>
+</ul>
+</nav>
+<br>
+<iframe id ="content" src="home.htm" width="1500" height="1000">
+</iframe>
+
+</div>
+</body>
+</html>
